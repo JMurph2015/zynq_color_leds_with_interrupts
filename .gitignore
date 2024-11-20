@@ -1,0 +1,39 @@
+# Ignore build output directory
+/build
+
+# Ignore object files and dependent files
+.o
+.d
+
+# Ignore logs folder and log files
+/logs
+.log
+
+# Ignore lock files
+.lock
+
+.bin
+.pdi
+
+# Ignore Vivado artifact directories
+/*.cache
+/*.gen
+/*.hw
+/*.runs
+/*.sim
+
+# Ignore Vivado XSA
+/*.xsa
+
+# Ignore Vitis platform directory
+/platform
+
+# Ignore other misc files
+/.theia
+/.peers.ini
+/.vitisWorkspace.json
+
+!/color_leds_with_interrupts/src/**/*.c
+!/color_leds_with_interrupts/src/**/*.h
+!/color_leds_with_interrupts/src/**/*.ld
+
