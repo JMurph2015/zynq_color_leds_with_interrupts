@@ -1,0 +1,48 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Sep 30 14:08:41 2024
+| Host         : murphyj-p14s running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_my_pwm_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_my_pwm_controller_0_0 (joemurphy.dev:user:my_pwm_controller:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_my_pwm_controller_0_0'.
+
+
+-Upgrade has added interface 'GPIO' (xilinx.com:interface:gpio:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_my_pwm_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'PWM0'
+
+-Upgrade has removed port 'PWM1'
+
+-Upgrade has removed port 'PWM2'
+
+-Upgrade has removed port 'PWM3'
+
+-Upgrade has removed port 'PWM4'
+
+-Upgrade has removed port 'PWM5'
+
+-Upgrade has added port 'PWM'
+
+

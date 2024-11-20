@@ -21,6 +21,7 @@
 /*.hw
 /*.runs
 /*.sim
+/*.tmp
 
 # Ignore Vivado XSA
 /*.xsa
@@ -32,6 +33,7 @@
 /.theia
 /.peers.ini
 /.vitisWorkspace.json
+**/.cache/
 
 !/color_leds_with_interrupts/src/**/*.c
 !/color_leds_with_interrupts/src/**/*.h
